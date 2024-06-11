@@ -83,16 +83,14 @@ function shuffle(array) {
 }
 
 againBtn.addEventListener("click", () => {
-  // Shuffle the items array
+ 
   shuffle(items);
 
-  // Reset images to image2 and update the UI
+ 
   createUi();
 
-  // Get a new random name
   getRandomName();
 
-  // Reset the message text
   message.textContent = "";
 });
 
